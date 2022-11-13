@@ -1,4 +1,4 @@
-# LenaWil Rommel
+# Homebrew formulae
 
 ## How do I install these formulae?
 
