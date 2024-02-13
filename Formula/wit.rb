@@ -6,10 +6,11 @@ class Wit < Formula
     sha256 "ebcff01c6d674f21a8c63ef0530d0516616d082e1d5041863ebc744549f937ea"
     license "GPL-2.0-or-later"
   
+
     def install
       system "make", "--directory=./project", "SYSTEM=mac"
       bin.install "./project/bin/wdf" => "wdf"
-      bin.install "./project/bin/wfuse" => "wfuse"
+      # bin.install "./project/bin/wfuse" => "wfuse"
       bin.install "./project/bin/wit" => "wit"
       bin.install "./project/bin/wwt" => "wwt"
     end
